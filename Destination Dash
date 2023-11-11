@@ -1,0 +1,24 @@
+import random
+
+def destination_dash():
+destinations = ["London", "Paris", "Berlin", "Rome", "Madrid", "Amsterdam", "Vienna", "Prague", "Moscow", "Stockholm"]
+random.shuffle(destinations) # 
+
+print("Welcome to Destination Dash!")
+print("Choose the next destination for the train from the following options:")
+
+score = 0
+for i in range(5): # 
+print(f"\nRound {i + 1}:")
+current_destination = destinations.pop()
+print("Current destination:", current_destination)
+user_input = input("Enter the next destination: ").capitalize()
+if user_input == current_destination:
+print("Correct! The train is on its way to the next destination.")
+score += 1
+else:
+print(f"Incorrect. The correct destination is {current_destination}.")
+
+print("\nDestination Dash is over! Your final score is:", score)
+
+destination_dash()
