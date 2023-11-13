@@ -7,7 +7,7 @@ random.shuffle(destinations) #
 print("Welcome to Destination Dash!")
 print("Choose the next destination for the train from the following options:")
 
-score = 0
+score = 1
 for i in range(5): # 
 print(f"\nRound {i + 1}:")
 current_destination = destinations.pop()
