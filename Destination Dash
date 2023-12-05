@@ -2,7 +2,7 @@ import random
 
 def destination_dash():
 destinations = ["London", "Paris", "Berlin", "Rome", "Madrid", "Amsterdam", "Vienna", "Prague", "Moscow", "Stockholm"]
-random.shuffle(destinations) # 1313030
+random.shuffle(destinations) # 13132030
 
 print("Welcome to Destination Dash!")
 print("Choose the next destination for the train from the following options:")
