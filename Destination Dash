@@ -1,4 +1,4 @@
-import random
+import random # 
 
 def destination_dash():
 destinations = ["London", "Paris", "Berlin", "Rome", "Madrid", "Amsterdam", "Vienna", "Prague", "Moscow", "Stockholm"]
